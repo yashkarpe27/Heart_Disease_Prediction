@@ -82,9 +82,12 @@ between 1-6.
 
 • Income: The income of the patient binned into buckets between 1-8
 
+
 Steps and Tasks
 
+
 • Import libraries and load dataset
+
 • Exploratory Data Analysis :
 
 ➢ Including univariate analysis to understand the distribution of
