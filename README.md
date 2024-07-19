@@ -21,6 +21,7 @@ diagnosing coronary heart disease. Diagnosis tends to be driven by an
 initial survey of these common risk factors followed by bloodwork and
 other tests.
 
+
 “AIHealth” is a new age startup laying foundations in the healthcare
 domain by solving some of the most prominent problems by using Data
 Science and Machine Learning. They are using a lot of open source data to
@@ -28,13 +29,17 @@ do a lot of experimentation. You were recently hired as a Data Scientist in
 their research team and your role is to create a model to determine
 probability for a patient having heart disease or attack.
 
+
 Objective
+
 1. Provide the best performing model to determine probability for a patient
 having a heart disease or attack.
 2. Providing the most important drivers for a heart disease or attack.
 Data Description
 The data provided consists of the following
+
 Data Dictionary
+
 • HeartDiseaseorAttack: Target variable determining whether patient
 had prior heart disease or heart attack.
 • HighBP: Binary flag determining whether a patient has high blood
@@ -61,7 +66,9 @@ to 30.
 • Education: The education level of the patient binned into buckets
 between 1-6.
 • Income: The income of the patient binned into buckets between 1-8
+
 Steps and Tasks
+
 • Import libraries and load dataset
 • Exploratory Data Analysis :
 ➢ Including univariate analysis to understand the distribution of
