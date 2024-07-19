@@ -42,48 +42,73 @@ Data Dictionary
 
 • HeartDiseaseorAttack: Target variable determining whether patient
 had prior heart disease or heart attack.
+
 • HighBP: Binary flag determining whether a patient has high blood
 pressure.
+
 • HighChol: Binary flag determining whether a patient has high
 cholesterol levels.
+
 • BMI: Numeric value representing the Body Mass Index.
+
 • Smoker: Binary flag determining whether a patient smokes or not.
+
 • Diabetes: Binary flag determining whether a patient has diabetes or
 not.
+
 • Fruits: Binary flag determining whether a patient consumes fruits in
 daily diet or not.
+
 • Veggies : Binary flag determining whether a patient consumes
 vegetables in daily diet or not.
+
 • HvyAlcoholConsump: Binary flag determining whether a patient is a
 heavy
+
 • consumer of alcohol.
+
 • MentHlth: Numeric value representing mental fitness, ranging from 0
 to 30.
+
 • PhysHlth: Numeric value representing physical fitness, ranging from
 0 to 30
+
 • Sex: Determining gender of the patient
+
 • Age: The age of the patient binned into buckets between 1-13
+
 • Education: The education level of the patient binned into buckets
 between 1-6.
+
 • Income: The income of the patient binned into buckets between 1-8
 
 Steps and Tasks
 
 • Import libraries and load dataset
 • Exploratory Data Analysis :
+
 ➢ Including univariate analysis to understand the distribution of
 features.
+
 ➢ Including multivariate analysis to determine the correlations
 and analysis of target variables.
+
 ➢ To determine if new features can be created, based on the
 given data.
+
 ➢ Layout binary classification experimentation space (i.e.determine the list of models you would like to experiment
 with)
-• Using precision-recall curves to determine best threshold
-• Publish the performance of all the models on the same hold-out/ test
+
+➢ Using precision-recall curves to determine best threshold
+
+➢ Publish the performance of all the models on the same hold-out/ test
 dataset.
-• List out the most important drivers of heart disease or attack.
-• Using techniques such as oversampling, undersampling to handle
-• class-imbalance.
-• Additional: Using model pipeline to create end to end training and
+
+➢ List out the most important drivers of heart disease or attack.
+
+➢ Using techniques such as oversampling, undersampling to handle
+
+➢ class-imbalance.
+
+➢ Additional: Using model pipeline to create end to end training and
 inference pipelines.
